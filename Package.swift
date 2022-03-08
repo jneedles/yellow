@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "yellow",
+	products: [
+		.executable(name: "yellow", targets: ["yellow"]),
+	],
     dependencies: [
     ],
     targets: [
